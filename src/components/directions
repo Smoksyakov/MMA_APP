@@ -1,0 +1,29 @@
+const full_name = first_name + " " + last_name 
+
+{
+	full_name : id
+}
+
+var a = {};
+
+a[full_name] = id 
+
+
+0. Create new object
+1. Iterate through the data, console log each object. Make sure you have a handle to the current iteration. 
+
+a = [{name: simon, id:123},{name: simon, id:123}] 
+
+iteratre over a
+  b = current iteration // Current handle
+  b.name;
+  b.id;
+
+2. For the current iteration. Build the fullname
+3. Insert the fullname + id into the new object
+
+
+
+
+
+
