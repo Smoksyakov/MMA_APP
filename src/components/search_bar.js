@@ -35,17 +35,17 @@ class SearchBar extends Component {
 	  				//console.log(myobj)
 	  				return myobj
   			});
-  			console.log(output_test);
-  			this.setState({info:output_test})
+
+  			this.setState({info: output_test})
+  			
   		});
   	}
 
 	render() {
+		console.log(this.state.info)
 		return(
 			<div>
-				<li>
-					{this.state[0]}	
-				</li>
+				{this.state.info.Court McGee}
 			</div>
 		);
 	}
